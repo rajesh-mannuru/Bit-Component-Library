@@ -35,12 +35,11 @@ jobs:
         run: bit tag --persist
       - name: Export components
         run: bit export
-      - name: Display branch
-        run: echo '${{ github.event }}'
       - name: Commit changes made to .bitmap
         run: |
           git config --global user.name '${{ github.actor }}'
           git config --global user.email '${{ github.actor }}@users.noreply.github.com'
           git add .bitmap
           git commit -m "update .bitmap with new component versions (automated). --skip-ci"
-          git push origin
+          git push origin '${{ github.ref }}'
+
