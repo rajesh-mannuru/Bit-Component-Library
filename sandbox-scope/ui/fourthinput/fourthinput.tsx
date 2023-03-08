@@ -11,6 +11,7 @@ export function Fourthinput({ children }: FourthinputProps) {
   return (
     <div>
       {children}
+      <div>Updated Bit Component</div>
     </div>
   );
 }
