@@ -9,6 +9,24 @@
  */
 
 {
+    "ui/fifthinput": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "my-scope/ui/fifthinput",
+        "nextVersion": {
+            "version": "patch",
+            "message": "fifth component",
+            "username": "rajesh_mannuru",
+            "email": "rajesh.mannuru@gmail.com"
+        },
+        "config": {
+            "teambit.envs/envs": {
+                "env": "rajesh_mannuru.sandbox-scope/extensions/rm-react-env"
+            },
+            "rajesh_mannuru.sandbox-scope/extensions/rm-react-env@0.0.4": {}
+        }
+    },
     "ui/fourthinput": {
         "scope": "rajesh_mannuru.sandbox-scope",
         "version": "0.0.2",
