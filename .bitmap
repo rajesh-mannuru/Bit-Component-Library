@@ -11,9 +11,15 @@
 {
     "ui/fourthinput": {
         "scope": "rajesh_mannuru.sandbox-scope",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
-        "rootDir": "sandbox-scope/ui/fourthinput"
+        "rootDir": "sandbox-scope/ui/fourthinput",
+        "nextVersion": {
+            "version": "patch",
+            "message": "Update 1",
+            "username": "rajesh_mannuru",
+            "email": "rajesh.mannuru@gmail.com"
+        }
     },
     "$schema-version": "15.0.0"
 }
