@@ -19,4 +19,4 @@ jobs:
         with:
           node-version: '14'
       - name: display head_ref
-        run: git status
+        run: git rev-parse --abbrev-ref HEAD
