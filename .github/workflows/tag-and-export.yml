@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: '14'
       - name: add some text
-        run: echo "Hello Again " >> texttemp
+        run: echo "Hello Again with permissions " >> texttemp
       - name: Commit changes made to texttemp
         run: |
           git config --global user.name '${{ github.actor }}'
