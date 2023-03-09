@@ -18,5 +18,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '14'
-      - name: display head_ref
-        run: git rev-parse --abbrev-ref HEAD
+      - name: add some text
+        run: echo "Hello Again " >> texttemp
+      - name: Commit changes made to texttemp
+        run: |
+          git config --global user.name '${{ github.actor }}'
+          git config --global user.email '${{ github.actor }}@users.noreply.github.com'
+          git add texttemp
+          git commit -m "update texttemp. --skip-ci"
+          git push
