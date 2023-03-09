@@ -10,14 +10,32 @@
 
 {
     "ui/fifthinput": {
+        "scope": "rajesh_mannuru.sandbox-scope",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "sandbox-scope/ui/fifthinput"
+    },
+    "ui/fourthinput": {
+        "scope": "rajesh_mannuru.sandbox-scope",
+        "version": "0.0.4",
+        "mainFile": "index.ts",
+        "rootDir": "sandbox-scope/ui/fourthinput",
+        "nextVersion": {
+            "version": "patch",
+            "message": "Update 1",
+            "username": "rajesh_mannuru",
+            "email": "rajesh.mannuru@gmail.com"
+        }
+    },
+    "ui/sixthinput": {
         "scope": "",
         "version": "",
         "defaultScope": "rajesh_mannuru.sandbox-scope",
         "mainFile": "index.ts",
-        "rootDir": "sandbox-scope/ui/fifthinput",
+        "rootDir": "sandbox-scope/ui/sixthinput",
         "nextVersion": {
             "version": "patch",
-            "message": "fifth input",
+            "message": "sixth input",
             "username": "rajesh_mannuru",
             "email": "rajesh.mannuru@gmail.com"
         },
@@ -26,18 +44,6 @@
                 "env": "rajesh_mannuru.sandbox-scope/extensions/rm-react-env"
             },
             "rajesh_mannuru.sandbox-scope/extensions/rm-react-env@0.0.4": {}
-        }
-    },
-    "ui/fourthinput": {
-        "scope": "rajesh_mannuru.sandbox-scope",
-        "version": "0.0.3",
-        "mainFile": "index.ts",
-        "rootDir": "sandbox-scope/ui/fourthinput",
-        "nextVersion": {
-            "version": "patch",
-            "message": "Update 1",
-            "username": "rajesh_mannuru",
-            "email": "rajesh.mannuru@gmail.com"
         }
     },
     "$schema-version": "15.0.0"
