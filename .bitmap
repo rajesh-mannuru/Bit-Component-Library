@@ -21,6 +21,25 @@
         "mainFile": "index.ts",
         "rootDir": "sandbox-scope/ui/input8"
     },
+    "ui/input9": {
+        "scope": "",
+        "version": "",
+        "defaultScope": "rajesh_mannuru.sandbox-scope",
+        "mainFile": "index.ts",
+        "rootDir": "sandbox-scope/ui/input9",
+        "nextVersion": {
+            "version": "patch",
+            "message": "input9",
+            "username": "rajesh_mannuru",
+            "email": "rajesh.mannuru@gmail.com"
+        },
+        "config": {
+            "teambit.envs/envs": {
+                "env": "rajesh_mannuru.sandbox-scope/extensions/rm-react-env"
+            },
+            "rajesh_mannuru.sandbox-scope/extensions/rm-react-env@0.0.4": {}
+        }
+    },
     "ui/seventhinput": {
         "scope": "rajesh_mannuru.sandbox-scope",
         "version": "0.0.1",
