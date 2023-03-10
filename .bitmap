@@ -21,12 +21,12 @@
             "email": "rajesh.mannuru@gmail.com"
         }
     },
-    "ui/seventhinput": {
+    "ui/input8": {
         "scope": "",
         "version": "",
         "defaultScope": "rajesh_mannuru.sandbox-scope",
         "mainFile": "index.ts",
-        "rootDir": "sandbox-scope/ui/seventhinput",
+        "rootDir": "sandbox-scope/ui/input8",
         "nextVersion": {
             "version": "patch",
             "message": "",
@@ -39,6 +39,12 @@
             },
             "rajesh_mannuru.sandbox-scope/extensions/rm-react-env@0.0.4": {}
         }
+    },
+    "ui/seventhinput": {
+        "scope": "rajesh_mannuru.sandbox-scope",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "sandbox-scope/ui/seventhinput"
     },
     "$schema-version": "15.0.0"
 }
