@@ -11,34 +11,15 @@
 {
     "ui/fourthinput": {
         "scope": "rajesh_mannuru.sandbox-scope",
-        "version": "0.0.6",
+        "version": "0.0.7",
         "mainFile": "index.ts",
-        "rootDir": "sandbox-scope/ui/fourthinput",
-        "nextVersion": {
-            "version": "patch",
-            "message": "Update 1",
-            "username": "rajesh_mannuru",
-            "email": "rajesh.mannuru@gmail.com"
-        }
+        "rootDir": "sandbox-scope/ui/fourthinput"
     },
     "ui/input8": {
-        "scope": "",
-        "version": "",
-        "defaultScope": "rajesh_mannuru.sandbox-scope",
+        "scope": "rajesh_mannuru.sandbox-scope",
+        "version": "0.0.1",
         "mainFile": "index.ts",
-        "rootDir": "sandbox-scope/ui/input8",
-        "nextVersion": {
-            "version": "patch",
-            "message": "",
-            "username": "rajesh_mannuru",
-            "email": "rajesh.mannuru@gmail.com"
-        },
-        "config": {
-            "teambit.envs/envs": {
-                "env": "rajesh_mannuru.sandbox-scope/extensions/rm-react-env"
-            },
-            "rajesh_mannuru.sandbox-scope/extensions/rm-react-env@0.0.4": {}
-        }
+        "rootDir": "sandbox-scope/ui/input8"
     },
     "ui/seventhinput": {
         "scope": "rajesh_mannuru.sandbox-scope",
