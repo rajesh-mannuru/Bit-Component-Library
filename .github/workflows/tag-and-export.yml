@@ -2,8 +2,10 @@
 name: Tag and Export Components
 
 on:
+  push:
+    branches: main
   pull_request:
-    branches: [main]
+    branches: main
 
 jobs:
   tag-and-export:
@@ -38,6 +40,7 @@ jobs:
       - name: display head_ref
         run: echo '${{ github.event.pull_request.head_ref }}'
       - name: Commit changes made to .bitmap
+        if: github.event_name == 'push'
         run: |
           git config --global user.name '${{ github.actor }}'
           git config --global user.email '${{ github.actor }}@users.noreply.github.com'
